@@ -1,0 +1,107 @@
+	.container{
+		width: 70px;
+		height: auto;
+		margin: auto;
+		padding: 15px;
+			padding-bottom: 50px;
+	}
+	.wrapper{
+		margin: auto;
+		text-align: center;
+		padding-top: 180px;
+		font-size: 25px;
+
+		
+	}
+
+
+	input{
+		width: 600px;
+		height: 30px;
+		margin-bottom: 20px;
+
+	}	
+	textarea{
+		width: 600px;
+		height: 200px;
+		margin-bottom: 20px;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	input[type="submit"]
+	{
+    
+    background: #1178B8;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight:bold;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+	}
+
+	input[type=submit]:hover {
+  	background-color: #3498db;
+  	}
+
+
+	input[type="text"],
+	input[type="email"],textarea
+	{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    transition: 0.2s ease;
+	}
+
+ /* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+
+ background-color: #e056fd;	
+  /* Set up proportionate scaling */
+ 
+  
+}
+
+/* Control the right side */
+.right {
+  padding-top: 50px;
+  right: 0;
+  background-color: white;
+
+	}
+
+
+/* Style the image inside the centered container, if needed */
+.centered  {
+        padding-top: 100px;
+		 width: 100%;
+		height: auto;
+		margin: auto;
+		padding: 15px;
+
+	}
+      }
